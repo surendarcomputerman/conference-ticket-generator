@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
+
+*{
+      font-family: "Inconsolata", monospace;
+}
+body{
+    position: relative;
+}
+.bg-img{
+    width: 100%;
+    height: 715px;
+    display: block;
+}
+.mobile-bg-img{
+    display: none;
+}
+.bg-img-2{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 315px;
+}
+.bg-img-3{
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+.bg-img-4{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 715px;
+}
+.container-1{
+    display: block;
+}
+.container-2{
+    display: none;
+}
+
+.sub-container-1{
+    position: absolute;
+    top: 20px;
+    left: 350px;
+    text-align: center;
+    width: 700px;
+}
+.sub-container-1 h1{
+    color: hsl(0, 0%, 100%);
+    font-family: "Inconsolata", monospace;
+    font-size: 45px;
+}
+.sub-container-1 p{
+    color: hsl(252, 6%, 83%);
+    font-size: 18px;
+     font-family: "Inconsolata", monospace;
+}
+.sub-container-2{
+    position: absolute;
+    top: 220px;
+    left: 500px;
+    padding: 20px;
+    z-index: 3;
+}
+.sub-container-2 form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sub-container-2 .img-img{
+border: 1px dashed #3C3363;
+width: 300px;
+height: 100px;
+text-align: center;
+color: white;
+border-radius: 10px;
+}
+.sub-container-2 .img-img img{
+    background-color: #322E51;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sub-container-2 .img-img p{
+color: #9590AD;
+font-size: 12px;
+cursor: pointer;
+}
+.sub-container-2 label{
+    color: hsl(0, 0%, 100%);
+    text-align: start;
+    width: 300px;
+    margin: 10px 0;
+}
+.sub-container-2 input{
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #3C3363;
+    background: transparent;
+    color: hsl(0, 0%, 100%);
+    padding-left: 10px;
+}
+.sub-container-2 button{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    outline: none;
+    border: none;
+    background-color: #F67464;
+    color: #502A4A;
+    font-weight: 600;
+}
+.sub-container-3{
+    position: absolute;
+    top: 20px;
+    left: 350px;
+    text-align: center;
+    width: 700px;
+}
+.sub-container-3 h1{
+    color: hsl(0, 0%, 100%);
+    font-family: "Inconsolata", monospace;
+    font-size: 45px;
+}
+.sub-container-3 .name{
+     background: linear-gradient(to right, hsl(7, 86%, 67%), hsl(0, 0%, 100%)); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sub-container-3 .email{
+    color: #B16266;
+}
+.sub-container-3 p{
+    color: hsl(252, 6%, 83%);
+    font-size: 18px;
+     font-family: "Inconsolata", monospace;
+}
+.sub-container-4{
+    position: absolute;
+    top: 290px;
+    left: 430px;
+    padding: 20px;
+    z-index: 3;
+}
+.sub-container-4 img{
+    position: relative;
+    width: 470px;
+}
+.sub-container-4 .top img{
+    width: 200px;
+}
+.sub-container-4 .top{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.sub-container-4 .top p{
+    color: #ABA8BD;
+    margin-left: 50px;
+    font-size: 15px;
+}
+.sub-container-4 .bottom .some-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    background-color: white;
+}
+.sub-container-4 .bottom{
+    position: absolute;
+    bottom: 40px;
+     left: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.sub-container-4 .bottom .content{
+     display: flex;
+     align-items: start;
+     justify-content: center;
+     flex-direction: column;
+     margin-left: 10px;
+     gap: 0;
+}
+.sub-container-4 .bottom h3{
+    color: #ABA8BD;
+}
+.sub-container-4 .bottom span{
+    color: #ABA8BD;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 5px;
+     font-size: 13px;
+}
+.sub-container-4 .bottom span img{
+    width: 20px;
+}
+.random-num{
+    color: #ABA8BD;
+    position: absolute;
+    right: 30px;
+    top: 120px;
+    font-size: 23px;
+    transform: rotate(90deg);
+}
+
+
+                            /* Responsive design */
+
+@media screen and (max-width : 500px){
+    
+.bg-img{
+    width: 100%;
+    height: 715px;
+    display: none;
+}
+.mobile-bg-img{
+    display: block;
+    width: 1050px;
+    height: 1400px;
+}
+.bg-img-2{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 1000px;
+}
+.bg-img-3{
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    left: 600px;
+}
+.bg-img-4{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 715px;
+}
+.container-1{
+    display: block;
+}
+.container-2{
+    display: none;
+}
+
+.sub-container-1{
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    text-align: center;
+    width: 700px;
+   
+}
+.sub-container-1 h1{
+    color: hsl(0, 0%, 100%);
+    font-family: "Inconsolata", monospace;
+    font-size: 60px;
+    width: 700px;
+}
+.sub-container-1 p{
+    color: hsl(252, 6%, 83%);
+    font-size: 30px;
+    width: 500px;
+    margin-left: 70px;
+     font-family: "Inconsolata", monospace;
+}
+.sub-container-2{
+    position: absolute;
+    top: 450px;
+    left: 300px;
+    padding: 20px;
+    z-index: 3;
+   
+}
+.sub-container-2 form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sub-container-2 .img-img{
+border: 1px dashed hsl(252, 6%, 83%);
+width: 450px;
+height: 150px;
+text-align: center;
+color: white;
+border-radius: 10px;
+}
+.sub-container-2 .img-img img{
+    background-color: #322E51;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50px;
+}
+.sub-container-2 .img-img p{
+color: #9590AD;
+font-size: 20px;
+cursor: pointer;
+}
+.sub-container-2 label{
+    color: hsl(0, 0%, 100%);
+    text-align: start;
+    width: 450px;
+    margin: 10px 0;
+    font-size: 25px;
+}
+.sub-container-2 input{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid hsl(252, 6%, 83%);
+    background: transparent;
+    color: hsl(0, 0%, 100%);
+    padding-left: 10px;
+}
+.sub-container-2 button{
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    outline: none;
+    border: none;
+    background-color: #F67464;
+    color: #502A4A;
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+.sub-container-3{
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    text-align: center;
+    width: 700px;
+   
+}
+.sub-container-3 h1{
+    color: hsl(0, 0%, 100%);
+    font-family: "Inconsolata", monospace;
+    font-size: 65px;
+}
+.sub-container-3 .name{
+     background: linear-gradient(to right, hsl(7, 86%, 67%), hsl(0, 0%, 100%)); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sub-container-3 .email{
+    color: #B16266;
+}
+.sub-container-3 p{
+    color: hsl(252, 6%, 83%);
+    font-size: 30px;
+     font-family: "Inconsolata", monospace;
+}
+.sub-container-4{
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    padding: 20px;
+    z-index: 3;
+}
+.sub-container-4 img{
+    position: relative;
+    width: 700px;
+}
+.sub-container-4 .top img{
+    width: 350px;
+}
+.sub-container-4 .top{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.sub-container-4 .top p{
+    color: #ABA8BD;
+    margin-left: 70px;
+    font-size: 23px;
+}
+.sub-container-4 .bottom .some-img{
+    width: 110px;
+    height: 110px;
+    border-radius: 15px;
+    background-color: white;
+}
+.sub-container-4 .bottom{
+    position: absolute;
+    bottom: 40px;
+     left: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.sub-container-4 .bottom .content{
+     display: flex;
+     align-items: start;
+     justify-content: center;
+     flex-direction: column;
+     margin-left: 10px;
+     gap: 0;
+}
+.sub-container-4 .bottom h3{
+    color: #ABA8BD;
+    font-size: 40px;
+    
+}
+.sub-container-4 .bottom span{
+    color: #ABA8BD;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 5px;
+     font-size: 25px;
+    
+}
+.sub-container-4 .bottom span img{
+    width: 20px;
+}
+.random-num{
+    color: #ABA8BD;
+    position: absolute;
+    right: 20px;
+    top: 140px;
+    font-size: 50px;
+    transform: rotate(90deg);
+}
+}
